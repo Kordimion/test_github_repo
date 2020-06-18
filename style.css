@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+figure{
+    display: inline-block;
+    width:auto;
+    margin: 0;
+    padding: 1em;
+    background-color: antiquewhite;
+    height: auto;
+}
+figcaption{
+    padding: 0.6em 0;
+    text-align: center;
+    font-size: 140%;
+}
