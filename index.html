@@ -9,16 +9,25 @@
 </head>
 <body>
 <div class="container">
-    <header>
+    <header class="text-center my-4">
         <h1>Random image generator</h1>
         <h2>Source: picsum.photos</h2>
     </header>
     
     <main>
-        <figure>
+        <div class="row">
+            <div class="card" style="width: 400px;">
+                <img class="card-img-top" src="https://picsum.photos/400/300" alt="random image">
+                <div class="card-body">
+                    <h5 class="card-title">Random image</h5>
+                    <p class="card-text">400/300</p>
+                </div>
+            </div>
+        </div>
+        <!-- <figure>
             <img src="https://picsum.photos/400/300" alt="random image">
             <figcaption>Unknown photo 400/300</figcaption>
-        </figure>
+        </figure> -->
     </main>
 </div> 
 </body>
