@@ -2,16 +2,18 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-figure{
-    display: inline-block;
-    width:auto;
-    margin: 0;
-    padding: 1em;
-    background-color: antiquewhite;
-    height: auto;
+.image-btn{
+    width: 2em;
+    height: 2em;
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-figcaption{
-    padding: 0.6em 0;
-    text-align: center;
-    font-size: 140%;
+.show-on-hover{
+    opacity: 0 !important;
+    transition: opacity .3s ease-in;
+}
+.show-on-hover:hover{
+    opacity: 1 !important;
 }
