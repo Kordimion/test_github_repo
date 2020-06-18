@@ -20,19 +20,21 @@
             <form id="addPicture-form">
                 <fieldset>
                     <legend>Add new picture</legend>
-                    <div class="form-group">
+                    <div class="form-group" id="imageWidth-formGroup">
                         <label for="imageWidth-inputText">Image Width</label>
                         <input type="text" class="form-control" id="imageWidth-inputText">
+                        <small class="text-danger"></small>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group" id="imageHeight-formGroup">
                         <label for="imageHeight-inputText">Image Height</label>
                         <input type="text" class="form-control" id="imageHeight-inputText">
+                        <small class="text-danger"></small>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </fieldset>
             </form>
         </div>
-        <div class="row">
+        <div class="row" id="gallery-wrapper">
             <div class="card" style="width: 400px;">
                 <img class="card-img-top" src="https://picsum.photos/400/300" alt="random image">
                 <div class="card-img-overlay show-on-hover">

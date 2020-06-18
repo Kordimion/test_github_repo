@@ -17,3 +17,7 @@
 .show-on-hover:hover{
     opacity: 1 !important;
 }
+
+.form-group.error input{
+    border-color: #dc3545;
+}
